@@ -1,2 +1,0 @@
-# mandjdealz.com
-Company Website
