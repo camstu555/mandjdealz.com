@@ -51,6 +51,10 @@ i {
     background: url(../images/bg.jpg) top right no-repeat;
 }
 
+.inner-page.inner-page-contact {
+    background: url(../images/bg-left.jpg) top left no-repeat;	
+}
+
 .content {
     padding-left: 50px;
     padding-top: 90px;

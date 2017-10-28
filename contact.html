@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>M&amp;J Dealz</title>
+    <title>Contact | M&amp;J Dealz</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/site.css">
@@ -14,7 +14,7 @@
     <script src="js/CSSPlugin.min.js"></script>
 </head>
 
-<body class="inner-page">
+<body class="inner-page inner-page-contact">
     <div class="container">
         <br>
         <nav class="navbar navbar-light navbar navbar-expand-lg">
@@ -30,17 +30,24 @@
             </div>
         </nav>
         <div class="row">
-            <div class="col-6 content">
-                <h1>About</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime vitae neque illo perferendis sed ad nihil vero totam, libero numquam voluptatem ex quasi nulla iste vel modi. Ipsum veniam, reiciendis.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime vitae neque illo perferendis sed ad nihil vero totam, libero numquam voluptatem ex quasi nulla iste vel modi. Ipsum veniam, reiciendis.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime vitae neque illo perferendis sed ad nihil vero totam, libero numquam voluptatem ex quasi nulla iste vel modi. Ipsum veniam, reiciendis.
-                </p>
+            <div class="col-6 content offset-5">
+                <h1>Contact</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="John Smith">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Questions/Comments/Concerns</label>
+                        <textarea class="form-control" id="comment" rows="3"></textarea>
+                    </div>
+                    <br>
+                    <button class="btn btn-warning btn-lg">Submit</button>
+                </form>
             </div>
         </div>
     </div>
