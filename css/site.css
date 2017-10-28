@@ -1,0 +1,65 @@
+body {
+    background-image: url(../images/bg-bright.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    font-family: 'Lato', sans-serif;
+}
+
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+em,
+i {
+    font-family: 'Lato', sans-serif;
+}
+
+.logo {
+    opacity: 0
+}
+
+.main-nav {
+    margin-top: 40px;
+    opacity: 0;
+}
+
+#preload {
+    background: white;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+#preload img {
+    opacity: 0;
+    display: block;
+    margin: -100px auto 0;
+}
+
+.inner-page {
+    background: url(../images/bg.jpg) top right no-repeat;
+}
+
+.content {
+    padding-left: 50px;
+    padding-top: 90px;
+    text-align: justify;
+}
+
+h1 {
+	display: block;
+	border-left: 4px solid black;
+	padding-left: 20px;
+	margin-bottom: 40px;
+}
