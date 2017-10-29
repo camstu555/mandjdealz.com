@@ -82,6 +82,10 @@ i {
     	border: none;
     	margin: 0 0 25px;
     }
+    .inner-page,
+    .inner-page.inner-page-contact {
+    	background: none;
+    }
 }
 
 h1 {
