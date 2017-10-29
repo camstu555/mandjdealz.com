@@ -2,6 +2,10 @@
     width: device-width;
 }
 
+html, body {
+	min-height: 100%;
+}
+
 body {
     background-image: url(../images/bg-bright.jpg);
     background-size: cover;
@@ -32,6 +36,7 @@ i {
 .main-nav {
     margin-top: 40px;
     opacity: 0;
+    text-align: center;
 }
 
 #preload {
@@ -63,6 +68,20 @@ i {
     padding-left: 50px;
     padding-top: 90px;
     text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .content {
+        padding: .5rem 1rem;
+        margin: .5rem 1rem;
+    }
+
+    .content h1 {
+    	padding: 0;
+    	font-size: 1.4em;
+    	border: none;
+    	margin: 0 0 25px;
+    }
 }
 
 h1 {
