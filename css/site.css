@@ -1,3 +1,7 @@
+@-ms-viewport {
+    width: device-width;
+}
+
 body {
     background-image: url(../images/bg-bright.jpg);
     background-size: cover;
@@ -52,7 +56,7 @@ i {
 }
 
 .inner-page.inner-page-contact {
-    background: url(../images/bg-left.jpg) top left no-repeat;	
+    background: url(../images/bg-left.jpg) top left no-repeat;
 }
 
 .content {
@@ -62,8 +66,8 @@ i {
 }
 
 h1 {
-	display: block;
-	border-left: 4px solid black;
-	padding-left: 20px;
-	margin-bottom: 40px;
+    display: block;
+    border-left: 4px solid black;
+    padding-left: 20px;
+    margin-bottom: 40px;
 }
